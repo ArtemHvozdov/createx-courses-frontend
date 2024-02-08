@@ -29,8 +29,8 @@ function Header() {
                         </ul>
                     </nav>
                     <div className="header__btn-section">
-                        <button>Get consultation</button>
-                        <button>Login in / Register</button>
+                        <button className='btn__consultation'>Get consultation</button>
+                        <button className='btn-reg-log'>Login in / Register</button>
                     </div>
                 </div>
             </div>
