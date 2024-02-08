@@ -1,0 +1,38 @@
+.header__inner {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.menu__list {
+    display: flex;
+    gap: 40px;
+}
+
+.menu__list-item a:hover {
+    color: var(--primary-color);
+}
+
+.header__btn-section {
+    display: flex;
+    gap: 20px;
+}
+
+.header__btn-section button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn__consultation {
+    background: var(--btn-gradient);
+    color: var(--white-color);
+    padding: 20px 40px;
+}
+
+.btn-reg-log {
+    background: none;
+    padding: 20px 10px;
+}
