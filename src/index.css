@@ -23,6 +23,11 @@
     padding: 0;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 body {
     font-family: 'lato';
 }
@@ -34,8 +39,18 @@ a {
     color: inherit;
 }
 
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
     max-width: 1250px;
     margin: 0 auto;
     padding: 0 10px;
+}
+
+main {
+    flex-grow: 1;
 }
