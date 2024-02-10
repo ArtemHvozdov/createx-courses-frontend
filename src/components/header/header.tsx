@@ -1,5 +1,6 @@
 import './heder.css';
 import logoHeaderImg from './../../assets/logo-header.svg'
+import Button from '../button/button';
 
 function Header() {
     return (
@@ -29,8 +30,14 @@ function Header() {
                         </ul>
                     </nav>
                     <div className="header__btn-section">
-                        <button className='btn__consultation'>Get consultation</button>
-                        <button className='btn-reg-log'>Login in / Register</button>
+                        <Button 
+                            className='btn__consultation' 
+                            btnText='Get consultation'
+                        />
+                        <Button 
+                            className='btn-reg-log'
+                            btnText='Login in / Register'
+                        />
                     </div>
                 </div>
             </div>
