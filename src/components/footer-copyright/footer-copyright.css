@@ -1,0 +1,6 @@
+.footer__copyright {
+    padding: 20px 0px;
+    background: var(--gray-800-color);
+    color: var(--white-color);
+    font-size: 12px;
+}
