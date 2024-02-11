@@ -1,6 +1,12 @@
-function List() {
+interface ListProps {
+    className: string
+}
+
+function List(props: ListProps) {
     return (
-        <ul></ul>
+        <ul className={props.className}>
+
+        </ul>
     )
 }
 

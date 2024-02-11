@@ -1,8 +1,13 @@
 import './heder.css';
 import logoHeaderImg from './../../assets/logo-header.svg'
 import Button from '../button/button';
+import List from '../list.tsx/list';
+import MenuItem from '../menu-item/menu-item';
 
 function Header() {
+    const menu: string[] = ['About us', 'Courses', 'Events', 'Blog', 'Contacts']
+
+    const 
     return (
         <header className='header'>
             <div className='container'>
@@ -11,6 +16,11 @@ function Header() {
                         <img src={logoHeaderImg} alt="" />
                     </a>
                     <nav className="menu">
+                        <List className="menu__list"
+                            {menu.map(item: string => (
+                                <MenuItem className='menu__list-item' />
+                              ))}
+                        />
                         <ul className="menu__list">
                             <li className="menu__list-item">
                                 <a href="" className="menu__list-link">About us</a>
