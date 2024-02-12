@@ -1,0 +1,8 @@
+.menu__list {
+    display: flex;
+    gap: 40px;
+}
+
+.menu__list-item a:hover {
+    color: var(--primary-color);
+}

@@ -1,15 +1,16 @@
 import Link from "../link/link.tsx";
 
 interface MenuItemProps {
-    className: string;
+    classNameLink: string;
+    classNameLi: string;
     href: string;
-    linkText: string;
+    menuItemText: string;
 }
 
 function MenuItem(props: MenuItemProps) {
     return (
-        <li>
-            <Link className={props.className} href={props.href} linkText={props.linkText}/>
+        <li className={props.classNameLi}>
+            <Link className={props.classNameLink} href={props.href} linkText={props.menuItemText}/>
         </li>
     )
 }
