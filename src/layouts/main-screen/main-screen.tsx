@@ -45,7 +45,25 @@ function MainScreen() {
                         </div>
                     </div>
                     <div className="statistic__section">
-                        
+                        <div className="statistic__section-item">
+                            <div className="statistic__item-number">1200</div>
+                            <Text className='statistic__item-info' text='Students graduated'/>
+                        </div>
+                        <div className="dote__item"></div>
+                        <div className="statistic__section-item">
+                            <div className="statistic__item-number">84</div>
+                            <Text className='statistic__item-info' text='Completed courses'/>
+                        </div>
+                        <div className="dote__item"></div>
+                        <div className="statistic__section-item">
+                            <div className="statistic__item-number">16</div>
+                            <Text className='statistic__item-info' text='Qualified tutors'/>
+                        </div>
+                        <div className="dote__item"></div>
+                        <div className="statistic__section-item">
+                            <div className="statistic__item-number">5</div>
+                            <Text className='statistic__item-info' text='Years of experience'/>
+                        </div>
                     </div>
                 </div>
             </div>

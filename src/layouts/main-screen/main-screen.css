@@ -9,7 +9,7 @@
 }
 
 .main-img-head_section {
-    padding-top: 200px;
+    padding-top: 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -55,3 +55,27 @@
     margin-top: 100px;
 }
 
+.statistic__section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statistic__section-item {
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.statistic__item-number {
+    font-size: 40px;
+}
+
+.dote__item {
+    width: 8px;
+    height: 8px;
+    background: var(--primary-color);
+    border-radius: 50%;
+}
