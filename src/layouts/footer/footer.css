@@ -54,7 +54,7 @@
 .footer__input-email {
     padding: 9px 0px 9px 12px;
     font-size: 12px;
-    width: 260px;
+    width: 100%;
     background: var(--gray-600-color);
     border-radius: 4px;
     color: var(--white-color);
