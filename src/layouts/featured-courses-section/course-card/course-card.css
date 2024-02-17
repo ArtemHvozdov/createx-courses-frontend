@@ -1,0 +1,5 @@
+.courses__catalog-item {
+    display: flex;
+    border: 1px solid var(--gray-300-color);
+    border-radius: 4px;
+}
