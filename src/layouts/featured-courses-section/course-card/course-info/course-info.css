@@ -1,0 +1,36 @@
+.catalog__item-info {
+    padding: 32px;
+}
+
+.item__info-category {
+    background: var(--succes-color);
+    padding: 1px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--white-color);
+}
+
+.item__info-tittle {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    margin-top: 20px;
+}
+
+.item__info-price-mentor {
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.item__info-price {
+    color: var(--danger-color);
+    font-weight: bold;
+}
+
+.delimiter,
+.item__info-mentor {
+    color: var(--gray-700-color);
+}
