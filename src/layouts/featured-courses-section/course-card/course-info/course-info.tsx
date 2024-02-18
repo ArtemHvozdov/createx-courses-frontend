@@ -1,5 +1,6 @@
 import Text from "../../../../components/text/text";
 import PriceAndAuthor from "./price-and-author/price-and-author";
+import './course-info.css'
 
 interface CourseInfoProps {
     category: string;

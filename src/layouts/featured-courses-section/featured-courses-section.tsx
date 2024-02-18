@@ -1,10 +1,12 @@
 import './featured-courses-section.css';
-import Img1 from './../../assets/course-mentors-img/mentor-google-ads-training-cours.png';
-import Img2 from './../../assets/course-mentors-img/mentor-product-managment-fundamentals.png';
-import Img3 from './../../assets/course-mentors-img/mentor-hr-management-analutics.png';
-import Img4 from './../../assets/course-mentors-img/mentor-brand-management-pr-communitcations.png';
-import Img5 from './../../assets/course-mentors-img/mentor-business-development-management.png';
-import Img6 from './../../assets/course-mentors-img/mentor-graphic-design-basic.png';
+import CourseCard from './course-card/course-card';
+import coursesData from './../../data/courses.json';
+// import Img1 from './../../assets/course-mentors-img/mentor-google-ads-training-cours.png';
+// import Img2 from './../../assets/course-mentors-img/mentor-product-managment-fundamentals.png';
+// import Img3 from './../../assets/course-mentors-img/mentor-hr-management-analutics.png';
+// import Img4 from './../../assets/course-mentors-img/mentor-brand-management-pr-communitcations.png';
+// import Img5 from './../../assets/course-mentors-img/mentor-business-development-management.png';
+// import Img6 from './../../assets/course-mentors-img/mentor-graphic-design-basic.png';
 
 function FeaturedCoursesSection() {
     return (
@@ -21,7 +23,18 @@ function FeaturedCoursesSection() {
                    
                     <div className="featured__courses-catalog">
 
-                        <div className="courses__catalog-item">
+                    {coursesData.map(course => (
+        <CourseCard
+          key={course.id}
+          category={course.category}
+          tittle={course.tittle}
+          price={course.price}
+          author={course.author}
+          img={course.img}
+        />
+      ))}
+
+                        {/* <div className="courses__catalog-item">
                             <img src={Img1} alt="" className="catalog__item-img" />
                             <div className="catalog__item-info">
                                 <span className="item__info-category">Marketing</span>
@@ -94,7 +107,7 @@ function FeaturedCoursesSection() {
                                     <div className="item__info-mentor">by Guy Hawkins</div>
                                 </div>
                             </div> 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

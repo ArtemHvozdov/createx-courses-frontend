@@ -1,9 +1,1 @@
-[
-    {
-        "item1": "About us",
-        "item2": "Courses",
-        "item3": "Events",
-        "item4": "Blog",
-        "item5": "Contacts"
-    }
-]
+["About us", "Courses", "Events", "Blog", "Contacts"]
